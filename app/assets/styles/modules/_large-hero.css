@@ -1,0 +1,46 @@
+.darker {
+		position: absolute;
+		background-color: rgba(0, 0, 0, .26);
+		width: 100%;
+		min-height: 647.2px;
+		transition: background-color .3s ease-out;
+
+		&--large {
+			min-height: 862px;
+		}
+
+		&:hover {
+			background-color: rgba(0, 0, 0, .33);
+		}
+	}
+
+.large-hero {
+	position: relative;
+	color: #ffe;
+
+
+	
+
+	&__text-content {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 100%;
+		text-align: center;
+		line-height: 25px;
+		padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: Open Sans;
+		
+	}
+
+	&__title {
+		font-weight: 600;
+		font-size: 2.25em;
+		margin: 0;
+		letter-spacing: 1px;
+		text-shadow: 1px 1px 5px #000;
+		font-family: Roboto;
+	}
+}

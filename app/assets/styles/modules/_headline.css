@@ -1,0 +1,63 @@
+.headline {
+	font-size: 2.25rem;
+	letter-spacing: 1px;
+	padding-bottom: 2.5rem;
+
+	&--centered {
+    text-align: center;
+    font-weight: 500;
+
+    &--both {
+    	font-size: 3rem;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 100%;
+			line-height: 1.6em;
+    }
+		
+		&--down {
+			font-size: 3rem;
+			position: absolute;
+			top: 93%;
+			transform: translateY(-50%);
+			width: 100%;
+			line-height: 1.6em;
+		}
+
+		&--right {
+			text-align: right;
+			font-size: 3rem;
+			position: absolute;
+			top: 40%;
+			right: 2%;
+			transform: translateY(-50%);
+			width: 100%;
+			line-height: 1.6rem;
+			margin-right: 1.25rem;
+			color: #333;
+
+		}
+
+  }
+
+  &--no-padding {
+  	padding: 0;
+  	margin-bottom: 1rem;
+  }
+}
+
+.good {
+	color: #99cc00;
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+.bad {
+	color: #ff0000;
+	margin-top: 5px;
+	margin-bottom: 40px;
+}
+
+.left {
+	text-align: left;
+}

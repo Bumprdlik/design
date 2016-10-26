@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #ed1e24;
+  text-decoration: none;
+
+  &:hover {
+  	text-decoration: underline;
+  }
+}
+
+p {
+	font-family: Open Sans;
+	line-height: 25px;
+	padding-bottom: 2rem;
+}
+
+.line-length {
+  width: 50%;
+  margin: 0 auto;
+}
+

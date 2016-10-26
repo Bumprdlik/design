@@ -1,0 +1,23 @@
+.site-footer {
+	font-size: .85rem;
+
+	&__arrow {
+		padding-top: 40px;
+
+		font-weight: 200;
+		font-size: 5rem;
+		transform: scaleX(2.3);
+		display: inline-block;
+		transition: transform .3s ease-out;
+
+		&:hover {
+				transform: translateY(-25px) scaleX(2.3);
+			}
+
+
+		a {
+			color: #333;
+			text-decoration: none;
+		}
+	}
+}
